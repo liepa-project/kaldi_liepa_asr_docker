@@ -3,12 +3,13 @@ Kaldi recognition works with Liepa models. Recognition client is buildit on JS/H
 
 # Work based on 
 
-Liepa2: https://www.raštija.lt/liepa-2/apie-projektą-liepa-2/7666
-Kaldi: https://kaldi-asr.org/
-Vosk: https://github.com/alphacep/vosk-api
+* Liepa2: https://www.raštija.lt/liepa-2/apie-projektą-liepa-2/7666
+* Kaldi: https://kaldi-asr.org/
+* Vosk: https://github.com/alphacep/vosk-api
 
-#Build Docker Image
-Step 1. Get the acoustic and language model and copy it to ```src/model/```
+# Build Docker Image
+
+Step 1. Get the acoustic and language model "kaldi-lt-lt-liepa2-0.1" and copy it to ```src/model/kaldi-lt-lt-liepa2-0.1```
 
 Step 2. Go to ```src``` dir and run:
 ```
@@ -16,9 +17,10 @@ Step 2. Go to ```src``` dir and run:
   docker run --rm -e"PORT=2700" -p 2700:2700 -it liepa-kaldi
 ```
 
-Step 3. test in browser: ```http://localhost:2700```. UI in in is hardcoded and lithuanian.
+Step 3. test in browser: ```http://localhost:2700```. UI in in is hardcoded and in Lithuanian.
 
-# Works in Heroku 
+# Works in Heroku Cloud
+
 Works with in Heroku cloud.
 Step 1. Setup account and Docker registry project
 Step 2. In ```src``` folder run
