@@ -9,7 +9,7 @@ Kaldi recognition works with Liepa models. Recognition client is buildit on JS/H
 
 # Build Docker Image
 
-Step 1. Get the acoustic and language model "kaldi-lt-lt-liepa2-0.1" and copy it to ```src/model/kaldi-lt-lt-liepa2-0.1```
+Step 1. Get the acoustic and language model "kaldi-lt-lt-liepa2-0.1.tar.gz" and copy it to ```src/model/kaldi-lt-lt-liepa2-0.1.tar.gz```
 
 Step 2. Go to ```src``` dir and run:
 ```
