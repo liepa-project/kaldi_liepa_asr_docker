@@ -31,5 +31,12 @@ Step 2. In ```src``` folder run
 ```
 You can access deployed version: https://liepa-kaldi.herokuapp.com/
 
-# Observation
-Provided Html client works only with local host or https due to browser restrictions.
+# Other Clients
+
+Please visit Vosk-Server(https://github.com/alphacep/vosk-server/tree/master/client-samples)  to get for samples for different programming langueges: angluar.js, csharp, node.js, php, python. 
+
+# Observations
+
+Provided Html client works only with local host or https due to browser restrictions. 
+
+Vosk server uses 8000Hz sampling audio. Liepa2 model was build on 16kHz audio samples. It might be needed sent to server ```{"config" : {"sample_rate" : 16000.0}}``` 
