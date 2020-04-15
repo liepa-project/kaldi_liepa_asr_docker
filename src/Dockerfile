@@ -4,7 +4,7 @@ ENV MODEL_VERSION 0.1
 ENV PYTHONPATH "${PYTHONPATH}:/root/.local/lib/python3.7/site-packages"
 RUN mkdir /opt/kaldi-lt
 
-COPY ./kaldi-lt-lt-liepa2-0.1 /opt/kaldi-lt/model
+COPY ./model/kaldi-lt-lt-liepa2-0.1 /opt/kaldi-lt/model
 
 COPY ./web /opt/vosk-server/websocket/web
 COPY ./py/asr_server_lt.py /opt/vosk-server/websocket
