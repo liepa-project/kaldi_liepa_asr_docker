@@ -1,0 +1,21 @@
+{
+  "version": "0.1",
+  "name": "Liepa Atpažintuvas(Kaldi)",
+  "description": "Liepa Kaldi Demo, based on Vosk server",
+  "launch_path": "/index.html",
+  "icons": {
+    "60": "app-icons/icon-60.png",
+    "128": "app-icons/icon-128.png"
+  },
+  "developer": {
+    "name": "Mindaugas Greibus",
+    "url": "https://mondhs.github.io/"
+  },
+  "default_locale": "lt",
+  "permissions": {
+    "audio-capture": {
+      "description": "Required to capture audio via getUserMedia"
+    }
+  },
+  "orientation": "portrait"
+}
