@@ -11,7 +11,7 @@ Kaldi recognition works with Liepa models. Recognition client is buildit on JS/H
 
 It is based on vosk server, please, find details in the link above. In short. Docker image with kaldi server and model is build. Docker image is deployed on any docker container(e.g. local machine, public server). Docker image consists of HTML and JS to connect to server through webscokets. Browser loads(see Build Steps to find URL) the page, page records microphone audio and sends stream to server.Server on recognition event will send back the message with result. It is possible write other clients to get recognition trhough webscokets e.g. for Java(Android), Python(Desktop), etc. 
 
-![Liepa Kaldi Server](https://github.com/liepa-project/kaldi_liepa_asr_docker/doc/liepa_kaldi_server.png)
+![Liepa Kaldi Server](https://raw.githubusercontent.com/liepa-project/kaldi_liepa_asr_docker/master/doc/liepa_kaldi_server.png)
 
 # Build Docker Image
 
